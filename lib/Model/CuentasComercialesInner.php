@@ -59,7 +59,7 @@ class CuentasComercialesInner implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'rfc' => 'string',
         'nombre_otorgante' => 'string',
-        'moneda' => '\RCCPMV2\Simulacion\MX\Client\Model\CatalogoMoneda',
+        'moneda' => 'string',
         'vigente' => 'int',
         'saldo_total' => 'int',
         '_29dias' => 'int',
